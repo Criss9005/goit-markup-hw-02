@@ -1,0 +1,150 @@
+body{
+    font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+    color: #212121;
+    ;
+}
+
+.img-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.img-subtitle{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 2.5;
+}
+
+.link:hover, .link:focus{
+color:#2196F3;
+}
+
+.here{
+    color:#2196F3;
+}
+
+.webstudio{
+
+width: 145px;
+height: 31px;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.focus:hover, .focus:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    }
+
+.focus{
+width: 128px;
+height: 38px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.butt{
+width: 197px;
+height: 30px;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+.blackbackground{background-color: #212121;}
+
+.colorw{
+width: 696px;
+height: 120px;
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+.colorw2{
+width: 231px;
+height: 21px;
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.linkto{
+width: 231px;
+height: 21px;
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.tituloin{
+width: 270px;
+height: 16px;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.subtituloin{
+width: 270px;
+height: 75px;
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.bggray{background-color: #F5F4FA;}
+.titulos2{
+width: 371.15px;
+height: 46.24px;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.titleteam{
+width: 97px;
+height: 19px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.subtitleteam{
+width: 181px;
+height: 19px;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.pointer{ cursor:pointer;}
