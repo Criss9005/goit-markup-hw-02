@@ -26,10 +26,28 @@ font-weight: 400;
 line-height: 2.5;
 }
 
-.link:hover, .link:focus, .linkto:hover, .linkto:focus{
+.link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--dominat-color);
+}
+.link:hover, .link:focus, .linkto:hover, .linkto:focus, .colorl:hover, .colorl:focus{
 color:var(--brand-color);
 }
 
+.colorl{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
 .here{color:var(--brand-color);}
 
 .webstudio{
@@ -50,15 +68,13 @@ color: var(--brand-color);
     }
 
 .focus{
-width: 128px;
-height: 38px;
+
 background: var(--background-color);
 border-radius: 4px;
 }
 
 .butt{
-width: 197px;
-height: 30px;
+
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
@@ -68,11 +84,10 @@ color: var(--text2-color);
 background-color: var(--brand-color);
 }
 
-.blackbackground{background-color: #212121;}
+.blackbackground{background-color: var(--dominat-color) ;}
 
 .colorw{
-width: 696px;
-height: 120px;
+
 font-family: 'Roboto';
 font-weight: 900;
 font-size: 44px;
@@ -82,18 +97,16 @@ color: var(--text2-color);
 }
 
 .colorw2{
-width: 231px;
-height: 21px;
+
 font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--text2-color)F;
+color: var(--text2-color);
 }
 
 .linkto{
-width: 231px;
-height: 21px;
+
 font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.71;
@@ -102,8 +115,7 @@ color: var(--butt-color);
 }
 
 .tituloin{
-width: 270px;
-height: 16px;
+
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 14px;
@@ -113,8 +125,7 @@ text-transform: uppercase;
 color: var(--dominat-color);
 }
 .subtituloin{
-width: 270px;
-height: 75px;
+
 font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.71;
@@ -123,8 +134,7 @@ color: var(--text-color);
 }
 .bggray{background-color: var(--background-color);}
 .titulos2{
-width: 371.15px;
-height: 46.24px;
+
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
@@ -133,8 +143,7 @@ letter-spacing: 0.03em;
 color:var(--dominat-color);
 }
 .titleteam{
-width: 97px;
-height: 19px;
+
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
@@ -143,9 +152,8 @@ letter-spacing: 0.03em;
 color:var(--dominat-color);
 }
 .subtitleteam{
-width: 181px;
-height: 19px;
-font-family: 'Roboto';
+
+    font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -153,3 +161,20 @@ color: var(--text-color);
 }
 
 .pointer{ cursor:pointer;}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tit2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+}
